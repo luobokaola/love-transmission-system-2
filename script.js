@@ -166,4 +166,5 @@ showTransmission();
 window.closePopup = closePopup
 window.openMessage = openMessage
 window.sendReply = sendReply
+window.showTransmission=showTransmission;
 window.closeTransmission=closeTransmission;
