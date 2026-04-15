@@ -1,5 +1,5 @@
 body{
-  background:#fff7b8;
+  background:#d6f0ff;
   font-family:"Courier New",monospace;
   margin:0;
   padding:30px;
@@ -14,8 +14,8 @@ body{
 
 .day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:2px solid black;background:#fffbe3;box-shadow:4px 4px 0 black;font-size:20px;transition:0.15s;}
 .day:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 black;}
-.locked{background:#ffd6d6;}
-.unlocked{background:#d7ffd7;cursor:pointer;}
+.locked{background:#ffdada;}
+.unlocked{background:#d6fff5;cursor:pointer;}
 
 .route{margin-top:30px;font-size:14px;}
 
