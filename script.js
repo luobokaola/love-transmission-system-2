@@ -24,6 +24,22 @@ function daysRemaining(){return Math.floor((arrival - new Date())/(1000*60*60*24
 function buildGrid(){
   const grid = document.getElementById("grid");
   const today = daysRemaining();
+
+  const total = 22;
+  const columns = 6;
+  const remainder = total % columns;
+
+  if(remainder !== 0){
+    const missing = columns - remainder;
+    const leftPad = Math.floor(missing/2);
+
+    for(let i=0;i<leftPad;i++){
+      let spacer=document.createElement("div");
+      spacer.style.visibility="hidden";
+      grid.appendChild(spacer);
+    }
+  }
+
   for(let i=22;i>=1;i--){
     let div=document.createElement("div");
     div.classList.add("day");
@@ -31,6 +47,17 @@ function buildGrid(){
     if(i-1>=today){div.classList.add("unlocked"); div.onclick=()=>openMessage(i);}
     else{div.classList.add("locked");}
     grid.appendChild(div);
+  }
+
+  if(remainder !== 0){
+    const missing = columns - remainder;
+    const rightPad = missing - Math.floor(missing/2);
+
+    for(let i=0;i<rightPad;i++){
+      let spacer=document.createElement("div");
+      spacer.style.visibility="hidden";
+      grid.appendChild(spacer);
+    }
   }
 }
 
