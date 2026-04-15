@@ -24,7 +24,7 @@ function daysRemaining(){return Math.floor((arrival - new Date())/(1000*60*60*24
 function buildGrid(){
   const grid = document.getElementById("grid");
   const today = daysRemaining();
-  for(let i=21;i>=1;i--){
+  for(let i=23;i>=1;i--){
     let div=document.createElement("div");
     div.classList.add("day");
     div.innerHTML=i;
