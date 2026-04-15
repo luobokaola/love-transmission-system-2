@@ -10,7 +10,7 @@ body{
 .header{font-size:14px;line-height:1.4;margin-bottom:20px;}
 .koala{font-size:20px;margin-bottom:20px;}
 
-#grid{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;max-width:520px;margin:auto;}
+#grid{display:grid;grid-template-columns:repeat(11,1fr);gap:12px;max-width:520px;margin:auto;}
 
 .day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:2px solid black;background:#fffbe3;box-shadow:4px 4px 0 black;font-size:20px;transition:0.15s;}
 .day:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 black;}
