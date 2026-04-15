@@ -144,6 +144,8 @@ updateHeaderCountdown();
 setInterval(updateHeaderCountdown,60000);
 buildGrid();
 
+showTransmission();
+
 window.closePopup = closePopup
 window.openMessage = openMessage
 window.sendReply = sendReply
