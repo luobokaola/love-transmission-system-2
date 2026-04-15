@@ -47,6 +47,14 @@ button{font-family:"Courier New",monospace;border:2px solid black;background:#ff
 #popupContent b{display:block;margin-top:10px;margin-bottom:5px;font-size:14px;}
 #popupContent audio{width:100%;margin-bottom:10px;}
 
+.transmissionText{
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  font-size:14px;
+  line-height:1.4;
+  text-align:left;
+}
+
 #specialTransmission{
   position:fixed;
   top:50%;
