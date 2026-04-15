@@ -146,14 +146,14 @@ function updateHeaderCountdown(){
 }
 
 function showTransmission(){
-  const key="transmissionSeen";
+  const key="transmissionSeen2";
   if(!localStorage.getItem(key)){
     document.getElementById("specialTransmission").classList.remove("hidden");
   }
 }
 
 function closeTransmission(){
-  localStorage.setItem("transmissionSeen","yes");
+  localStorage.setItem("transmissionSeen2","yes");
   document.getElementById("specialTransmission").classList.add("hidden");
 }
 
