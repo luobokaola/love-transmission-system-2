@@ -170,7 +170,7 @@ buildGrid();
 showTransmission()
 
 function updatePlane(){
-  const totalDays = 22;
+  const totalDays = 29;
   const remaining = daysRemaining();
 
   const progress = Math.min(1, Math.max(0, (totalDays - remaining) / totalDays));
