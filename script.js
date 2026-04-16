@@ -175,12 +175,13 @@ function updatePlane(){
 
   const progress = Math.min(1, Math.max(0, (totalDays - remaining) / totalDays));
 
-  const plane = document.getElementById("plane");
-  const track = document.querySelector(".track");
+  const tracks = document.querySelectorAll(".track");
+  const planes = document.querySelectorAll(".plane");
 
-  const max = track.offsetWidth - 16;
-
-  plane.style.left = (progress * max) + "px";
+  planes.forEach((plane, index) => {
+    const max = tracks[index].offsetWidth - 16;
+    plane.style.left = (progress * max) + "px";
+  });
 }
 
 updatePlane();
