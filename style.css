@@ -104,7 +104,7 @@ button{font-family:"Courier New",monospace;border:2px solid black;background:#f0
 
 .plane{
   position:absolute;
-  top: 5px;
+  top: -14px;
   left:0;
   font-size:16px;
   transition:left 0.5s ease;
