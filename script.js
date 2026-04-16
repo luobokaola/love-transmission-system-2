@@ -190,6 +190,7 @@ function updatePlane(){
 updatePlane();
 
 window.closePopup = closePopup
+window.updatePlane = updatePlane
 window.openMessage = openMessage
 window.sendReply = sendReply
 window.showTransmission=showTransmission;
