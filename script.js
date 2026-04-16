@@ -17,6 +17,12 @@ const db = getFirestore(app);
 const arrival = new Date("2026-05-08T04:30:00+08:00");
 
 const messages = {
+  22: {
+    audio: "audio/22.m4a",
+    img: "images/22.jpg",
+    cz: "Dobré ráno moje nejkrásnější a nejmilovanější Chloe. Extrémně hodně tě miluju, doufám, že to víš. Tohle je první zpráva v tomhle novém systému. Ještě tu musím pár věcí doladit, ale většina věcí by snad měla fungovat. Když budeš chtít, můžeš sem taky nahrát nějaké zprávy. Už mám za sebou první test dnešního dne a myslím, že to nebylo nejhorší, ale ani nejlepší teda. hehe. Doufám, že ty máš krásný, úspěšný den. Hodně na tebe myslím. Jsi ta nejúžasnější a nejlepší holka na světě, jsem šťastný, že tě mám. Moc moc moc tě miluju, tvůj koalí manžel Rob.",
+    en: "Good morning, my most beautiful and loved Chloe. I love you so, so much, I hope you know that. This is the first message in this new system. I still have a few things to adjust, but most of it should be working. If you want, you can post some messages here, too. I’ve already taken my first test of the day, and I think it wasn’t the worst, but not the best either. Hehe. I hope you’re having a lovely, successful day. I’m thinking of you a lot. You’re the most amazing and best girl in the world. I’m so happy to have you. I love you so, so, so much, your koala husband, Rob."
+  },
 };
 
 function daysRemaining(){return Math.floor((arrival - new Date())/(1000*60*60*24));}
