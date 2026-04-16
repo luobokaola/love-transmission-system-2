@@ -167,7 +167,23 @@ updateHeaderCountdown();
 setInterval(updateHeaderCountdown,60000);
 buildGrid();
 
-showTransmission();
+showTransmission()
+
+function updatePlane(){
+  const totalDays = 22;
+  const remaining = daysRemaining();
+
+  const progress = Math.min(1, Math.max(0, (totalDays - remaining) / totalDays));
+
+  const plane = document.getElementById("plane");
+  const track = document.querySelector(".track");
+
+  const max = track.offsetWidth - 16;
+
+  plane.style.left = (progress * max) + "px";
+}
+
+updatePlane();
 
 window.closePopup = closePopup
 window.openMessage = openMessage
