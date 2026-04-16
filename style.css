@@ -42,7 +42,7 @@ textarea{width:100%;max-width:95%;box-sizing:border-box;height:70px;font-family:
 .reply{border:2px solid black;background:#fff;padding:10px;margin-bottom:10px;box-shadow:3px 3px 0 black;font-family:monospace;font-size:14px;}
 .reply small{display:block;font-size:12px;margin-top:5px;color:#333;}
 
-button{font-family:"Courier New",monospace;border:2px solid black;background:#fffbe3;padding:6px 12px;box-shadow:3px 3px 0 black;cursor:pointer;margin-top:5px;}
+button{font-family:"Courier New",monospace;border:2px solid black;background:#f0fbff;padding:6px 12px;box-shadow:3px 3px 0 black;cursor:pointer;margin-top:5px;}
 
 #popupContent b{display:block;margin-top:10px;margin-bottom:5px;font-size:14px;}
 #popupContent audio{width:100%;margin-bottom:10px;}
