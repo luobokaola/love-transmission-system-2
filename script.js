@@ -178,13 +178,18 @@ function updatePlane(){
   const tracks = document.querySelectorAll(".track");
   const planes = document.querySelectorAll(".plane");
 
+  if(planes.length === 0) return;
+
   planes.forEach((plane, index) => {
+    if(!tracks[index]) return;
     const max = tracks[index].offsetWidth - 16;
     plane.style.left = (progress * max) + "px";
   });
 }
 
-updatePlane();
+window.onload = () => {
+  updatePlane();
+};
 
 window.closePopup = closePopup
 window.openMessage = openMessage
