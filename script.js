@@ -83,6 +83,12 @@ const messages = {
     cz: "Ahoj moje nejúžasnější ženuško, miluju tě. Ty teď píšeš svojí zkoušku a já na tebe moc moc myslím a přeju všechno štěstí na světě. Jsi nejlepší! Dneska už je to jen 11 dní, za chvilku to bude jen týden a pak už skoro budeme spolu. Pořádně si teď po zkouškách odpočiň, můžeme se spolu podívat na nějaký seriál a na chvíli vypnout mozek. Já dneska, jako poslední dobou skoro každý den moc plánu kromě učení, nějakých domácích aktivit a mluvení se svojí nejlepší ženuškou nemám. Dneska tu máme zatím hezký, teplo, ale odpoledne by mělo podle všeho pršet... Dneska opět přidávám jednu z mých nejoblíbenějších fotek, asi jí nemusím moc komentovat, ale je pro mě hodně důležitá. Moc moc moc tě miluju, tvůj koalí manžel Rob.",
     en: "Hi, my most amazing wifey, I love you the most. You’re taking your exam right now, and I’m thinking of you so much and wishing you all the luck in the world. You’re the best! Today there are only 11 days left, soon it’ll be just a week, and then we’ll be together. Get some good rest after your exams, we can watch a TV series together and switch off the brain for a while some time. Today, like almost every day lately, I don’t have much planned besides studying, some chores, and talking to my best wifey. It’s nice and warm here today so far, but it looks like it’s going to rain this afternoon... Today I’m posting one of my favorite photos again, I probably don’t need to say much about it, but it means a lot to me. I love you so, so, so much, your koala husband, Rob."
   },
+  11: {
+    audio: "audio/11.m4a",
+    img: "images/11.jpg",
+    cz: "",
+    en: ""
+  },
 };
 
 function daysRemaining(){return Math.floor((arrival - new Date())/(1000*60*60*24));}
