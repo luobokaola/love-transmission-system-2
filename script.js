@@ -137,7 +137,7 @@ function openMessage(day){
   let imgHtml=m.img?`<img src="${m.img}">`:"";
   const shouldShowChinese = day <= 10; 
   const languageLabel = shouldShowChinese ? "CHINESE" : "CZECH";
-  const content = shouldShowChinese ? m.cn : m.cz;
+  const content = shouldShowChinese ? (m.cn || '暂无内容') : (m.cz || 'No content yet');
   document.getElementById("popupContent").innerHTML=`
 <pre>
 --------------------
