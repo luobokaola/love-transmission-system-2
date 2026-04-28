@@ -89,6 +89,12 @@ const messages = {
     cz: "",
     en: ""
   },
+  11: {
+    audio: "audio/10.m4a",
+    img: "images/10.jpg",
+    cn: "早上好萝卜宝宝，我刚刚吃完午饭，然后我买了一杯红豆薏米水。希望你的中国visa申请能够顺利通过。这是我第一次录语音信息，所以我有点紧张。今天的照片是我们在从萧山机场到市区的地铁上拍的。当时我非常非常非常激动，因为再次见到你让我很开心。希望你今天一切顺利。我下午要上一节课，然后我就去看租的房子，然后我就没什么事情啦。不得不说，粉色任务真的有点难找，我今天可能也凑不到九张图片。祝你一切顺利噢，拜拜~",
+    en: "Good morning, Rob bb! I just finished lunch and then bought a bottle of red bean and barley water. I hope your Chinese visa application will be approved smoothly. This is my first time recording a voice message, so I'm a little bit nervous. Today's photos were taken on the subway from Xiaoshan Airport to the city center. I was so, so, so excited because meeting you again made me so happy. I hope everything goes well for you today. I have a class this afternoon, then I'll go check the apartment we're renting, and then I'll be free. I have to say, the pink mission is really hard to find; I probably won't be able to collect nine pictures today as well (laugh). Wish your everything goes smoothly, bye-bye!"
+  },
 };
 
 function daysRemaining(){return Math.floor((arrival - new Date())/(1000*60*60*24));}
