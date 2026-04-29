@@ -98,8 +98,8 @@ const messages = {
   9: {
     audio: "audio/9.m4a",
     img: "images/9.jpg",
-    cz: "",
-    en: ""
+    cz: "Ahoj moje nejlepší manželko Chloe. Strašně moc tě miluju, snad ty mě ještě trochu taky. Dnešní zprávu nahrávám trochu později, ale jsem moc rád, že víza už jsou vyřízená, hodně moc se těším na náš výlet, dneska je to už jen 8 dní, jednociferné číslo a k tomu ještě už skoro jenom týden. To už snad uteče rychle. Moc mi chybíš :(. Dnešní fotku určitě znáš, protože jsi jí fotila, je z naší jízdy na snowboardu, hodně mě to bavilo, i když mě pak ještě několik dní bolel zadek. Mimo téma, musím, říct, že to Sambal Chicken, co jsem měl k obědu nebyla zrovna nejlepší volba, bylo to hodně mastné a k tomu pálivé, trochu mi to připomnělo náš výlet do Chongqingu. Teď se připravuju na zítřejší zkoušku. Doufám, že ty máš hezké a klidné odpoledne, odpočiň si a když budeš něco potřebovat tak mi prosím řekni, chci pro tebe udělat cokoliv. Moc moc moc tě miluju Chloe, tvůj koalí manžel Rob.",
+    en: "Hi, my best wife, Chloe. I love you so, so much, I hope you still love me at least a little too. I’m recording today’s message a bit late, but I’m really glad the visas are finally sorted out. I’m really looking forward to our trip, it’s only 8 days away now, a single-digit number, and on top of that, it’s almost just a week. I hope the time flies by. I miss you so much : (. You definitely recognize today’s photo because you took it, it’s from our snowboarding trip. I really enjoyed it, even though my butt was hurting for several days afterward. On a different note, I have to say that the Sambal Chicken I had for lunch wasn’t exactly the best choice, it was very oily and spicy, and it reminded me a bit of our trip to Chongqing hehe. Now I’m getting ready for tomorrow’s exam. I hope you’re having a nice, peaceful afternoon. Get some rest, and if you need or want anything, please let me know, I’d do anything for you. I love you so, so, so much, Chloe. Your koala husband, Rob."
   },
 };
 
