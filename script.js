@@ -147,7 +147,10 @@ function openMessage(day){
   const messageDate=new Date(firstMessageDate); messageDate.setDate(firstMessageDate.getDate()+(21-day));
   const formattedDate=messageDate.toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"});
   let imgHtml=m.img?`<img src="${m.img}">`:"";
-  const shouldShowChinese = day == 10 || day == 8; 
+
+  // if you want to add another day with chinese, just add the number of the day to this array mimí  
+  const shouldShowChinese = day in [8, 10]; 
+  
   const languageLabel = shouldShowChinese ? "CHINESE" : "CZECH";
   const content = shouldShowChinese ? m.cn : m.cz;
   document.getElementById("popupContent").innerHTML=`
