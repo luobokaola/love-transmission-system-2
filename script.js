@@ -107,6 +107,12 @@ const messages = {
     cn: "下午好萝卜宝宝！我刚刚上完龙舟课，现在在校医院准备看医生。恭喜你完成了今天的考试，你是世界上最棒的宝宝！！今天杭州的天气超级好，晴空万里，然后龙舟课上也很晒。我们今天划了很长距离，五百米划了两次大概。你的午餐看上去很好吃诶，我也很想吃那样的汉堡，下次我们一起吃吧！祝你今天一切顺利。我像往常一样想念你。我非常非常爱你噢！拜拜。",
     en: "Good afternoon, Rob bb! I just finished my dragon boat class and am now at the school clinic to see the doctor. Congratulations on finishing today's exam! You're the best bb in the world!! The weather in Hangzhou is amazing today, with clear blue sky, and it was very sunny during dragon boat class. We rowed a long distance today, about 500 meters for twice. Your lunch looks delicious! I really want to eat a burger like that; let's have it together next time! Wish you a nice day! I miss you as always. I love you so much! Bye-bye."
   },
+  7: {
+    audio: "audio/7.m4a",
+    img: "images/7.jpg",
+    cz: "Ahoj moje nejmilovanější manželko Chloe. Hodně mi chybíš. Přeji ti krásný první máj, svátek zamilovaných, miluju tě nejvíc na světě, poslal jsem ti nějaké třešně, v květnu v Česku kvetou třešně a jsou právě symbolem dnešního svátku. Snad ti budou chutnat. Jsem moc rád, že ses konečně dlouho a hezky vyspinkala, já měl zatím hezký, klidný den, dokonce jsem vyfotil i pár fotek s trojúhelníkem hehe. Dneska už je to jenom šest dní, utíká to rychle, míň než týden. Dneska přidávám další zajímavou fotku, myslím, že poznáš odkud je hehe. Na naší návštěvu retail shopů nikdy nezapomenu hhh... Užij si hezký zbytek dne bibí, moc moc moc tě miluju, tvůj koalí manžel Rob.",
+    en: "Hi, my loveliest wifey, Chloe. I miss you so much. I wish you a happy first of May, the holiday of love. I love you more than anything in the world. I sent you some cherries—in May, the cherry trees blossom in the Czech Republic, and they’re the symbol of today’s holiday. I hope you like them. I’m so glad you finally got a long, good night’s sleep. I’ve had a nice, peaceful day so far, I even took a few photos with a triangle, hehe. Today it’s only six days left, time flies, less than a week. Today I’m adding another interesting photo; I think you’ll recognize where it’s from, hehe. I’ll never forget our visit to the retail shops, hhh... Have a nice rest of the day, bibí, I love you so, so, so much, your koala husband Rob."
+  },
 };
 
 function daysRemaining(){return Math.floor((arrival - new Date())/(1000*60*60*24));}
