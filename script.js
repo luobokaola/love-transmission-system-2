@@ -149,7 +149,7 @@ function openMessage(day){
   let imgHtml=m.img?`<img src="${m.img}">`:"";
 
   // if you want to add another day with chinese, just add the number of the day to this array mimí  
-  const shouldShowChinese = day in [8, 10]; 
+  const shouldShowChinese = today in [8, 10]; 
   
   const languageLabel = shouldShowChinese ? "CHINESE" : "CZECH";
   const content = shouldShowChinese ? m.cn : m.cz;
