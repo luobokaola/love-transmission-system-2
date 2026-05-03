@@ -122,8 +122,8 @@ const messages = {
   5: {
     audio: "audio/5.m4a",
     img: "images/5.jpg",
-    cz: "",
-    en: ""
+    cz: "Šťastné výročí moje nejmilovanější ženuško Chloe bibí!!! Miluju tě ze všeho nejvíc. Nemůžu se dočkat až to za čtyři dny pořádně oslavíme spolu. U mě v Singapuru teď pořád dost silně prší, což mi docela zkazilo plány, takže jsem do teď jenom ležel v posteli. Koukal jsem ještě na internet a podle všeho, ten malý ptáček, kterého jsem dneska našel, se pravděpodobně učil lítat, takže by snad měl být v pohodě. Tobě Chloe mimí přeju abys měla hezký a úspěšný den, ti raci, co jsi mi poslala vypadali moc dobře. Taky jsem moc hrdý na našeho medvídka, hodně nám vyrostl, jsem rád, že ho dobře krmíš a staráš se o něj hehe. Dneska přidávám hezkou fotku z našeho oblíbeného AI předmětu, pamatuju si, jak jsem se těšil až ti budu moct předat všechny ty dobrůtky z Česka abys ne mohla ochutnat. Nemám sice tu originální fotku, ale udělal jsem si screenshot, když jsem si chtěl přeložit Čínský text hehe. Moc moc moc tě miluju, tvůj koalí manžel Rob.",
+    en: "Happy anniversary, my loveliest wifey, Chloe!!! I love you more than anything else in the world. I can’t wait for us to celebrate this together in four days. It’s been raining pretty hard here in Singapore, which has kind of ruined my plans, so I’ve just been lying in bed until now. I was checking the internet, and apparently, that little bird I found today was probably learning to fly, so hopefully it’ll be okay. I hope you have a nice and successful day, Chloe, the crayfish you sent me looked really good. I’m also really proud of our little bear; he’s grown so much. I’m glad you’re feeding him well and taking good care of him, hehe. Today I’m adding a cute photo from our favorite AI class. I remember how excited I was to give you all those yummy snacks from the Czech Republic so you could try them. I don’t have the original photo, but I took a screenshot when I wanted to translate the Chinese text, hehe. I love you so, so, so much, your koala husband, Rob."
   },
 };
 
